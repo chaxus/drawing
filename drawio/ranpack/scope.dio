@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+    <diagram id="RhTjZdZbOsau1JptgYF3" name="第 1 页">
+        <mxGraphModel dx="678" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="scope" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="属性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="方法" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="封装作用域链相关的信息，进行作用域链的分析，核心在于节点declaration的收集和存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="40" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="parent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="paramNodes" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="100" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="isBlockScope" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="statement" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="declaration" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="addDeclaration" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="410" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="eachDeclaration" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="490" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="contains" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="findDeclaration" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="630" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="父级作用域" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="如果是函数作用域，则需要参数节点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="100" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="是否为块级作用域" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="作用域对应的语句节点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="707" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="作用域对应的声明节点" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="添加声明节点和语句节点的关系" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="410" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="遍历作用域对象" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="当前作用域，" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
